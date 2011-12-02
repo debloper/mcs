@@ -1,2 +1,4 @@
-## Mozilla Community Sites
-MCS is the web-dev project focused to help local Mozilla communities setup their own community sites on their favorite CMS/Framework with the Mozilla Community Customization Pack.
+# Mozilla Community Sites
+Welcome to the Mozilla Community Sites (MCS) code repo. There's not much here at the moment, since we're working in the `wordpress` branch.
+## Want to get involved?
+Come join us in irc://irc.mozilla.org/#mcs or join our [mailing list](https://lists.mozilla.org/listinfo/community-local-sites).
