@@ -1,0 +1,91 @@
+/*
+Theme Name:     Mozilla Community theme (based on WordPress TwentyEleven)
+Theme URI:      https://wiki.mozilla.org/MCS
+Description:    Child theme for the Twenty Eleven theme 
+Author:         Mozilla MCS team
+Author URI:     https://wiki.mozilla.org/MCS
+Template:       twentyeleven
+Version:        0.1.1-tomer
+*/
+
+
+
+@import url("../twentyeleven/style.css");
+
+#branding a img { display: none } /* TEMPORARY REMOVE BANNER IMAGE */
+
+body {
+    padding: 0; 
+    background: url("img/page-background.png") white repeat-x;
+}
+
+#branding { border-top: none; }
+
+/*#branding hgroup { display: inline-block; }*/
+#site-description { margin: 0 }
+
+#page {
+    background: none;
+    margin: 0;
+    max-width: none;
+}	
+
+#main {
+    margin: 2em auto;
+    max-width: 1000px;
+    min-width: 1000px;
+}
+
+#access {
+    background: #2e89ca;
+    border-radius: 5px;
+/*    box-shadow: none;*/
+}
+
+#colophon {
+    background: repeat scroll 0 0 #33559B !important;
+    color: lightgray;
+}
+
+.widget input:focus { background: white; }
+
+html { background: #33559B; }
+
+#colophon .widget-title {
+    color: white;
+    font-weight: bold;
+}
+
+#supplementary, #site-generator {
+    border-top: none;
+    background: none;
+}
+
+#site-generator {
+    background: url("img/mozilla-logo.png") #33559B no-repeat;
+/*    background: url("img/mctlogo.png") #33559B no-repeat;*/
+}
+
+#main .widget {
+    background: #CDE6F5;
+    border-radius: 10px; 
+    padding: 20px;
+}
+
+#content hr {
+/*	background-image: url(http://mozcom-cdn.mozilla.net/img/covehead/divider-main.jpg); */
+    background-image: url("img/divider-main.jpg");
+    background-color: white;
+    background-position: top center;
+    margin: 0;
+    padding-bottom:  1.625em;
+    min-height: 48px;
+}
+
+.singular .hentry {
+    padding: none;
+}
+
+#site-generator a { 
+    color: #669BE1;
+}
