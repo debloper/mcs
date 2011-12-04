@@ -40,6 +40,13 @@ body {
     background: #2e89ca;
     border-radius: 5px;
 /*    box-shadow: none;*/
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#access div.menu {
+	margin-left: 1%;
+	margin-right: 1%;
 }
 
 #colophon {
