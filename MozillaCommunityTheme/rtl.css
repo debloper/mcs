@@ -1,7 +1,7 @@
 @import url("../twentyeleven/rtl.css");
 
 #branding hgroup {
-	background-position-x: 100%;
+	background-position: right;
 }
 #site-title { 
 	padding-left: 0;
