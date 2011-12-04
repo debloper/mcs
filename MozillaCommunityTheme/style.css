@@ -64,6 +64,10 @@ body {
 	margin-right: 1%;
 }
 
+#branding #searchform {
+	top: 8.2em;
+	background: white;
+}
 #colophon {
     background: repeat scroll 0 0 #33559B !important;
     color: lightgray;
