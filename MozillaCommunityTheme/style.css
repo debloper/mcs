@@ -16,13 +16,28 @@ Version:        0.1.1-tomer
 
 body {
     padding: 0; 
+    padding-top: 30px;
     background: url("img/page-background.png") white repeat-x;
 }
 
 #branding { border-top: none; }
 
 /*#branding hgroup { display: inline-block; }*/
-#site-description { margin: 0 }
+#branding hgroup {
+	background: url("img/mctlogo.png");
+	background-repeat: no-repeat;
+	padding-bottom: 10px;
+}
+#site-title {
+	padding-left: 170px;
+	padding-top: 20px;
+}
+#site-title a { font-size: 40px;}
+#site-description { 
+	margin: 0;
+	font-size: 30px;
+	margin-left: 170px;
+}
 
 #page {
     background: none;

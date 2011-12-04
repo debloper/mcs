@@ -1,4 +1,13 @@
 @import url("../twentyeleven/rtl.css");
 
-#site-description { margin: 0 }
-
+#branding hgroup {
+	background-position-x: 100%;
+}
+#site-title { 
+	padding-left: 0;
+	padding-right: 170px;
+}
+#site-description { 
+	margin: 0;
+	margin-right: 170px;
+}
