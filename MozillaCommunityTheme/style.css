@@ -113,9 +113,11 @@ html { background: #33559B; }
 }
 
 #main .widget {
-    background: #CDE6F5;
+    background: white;
     border-radius: 10px; 
     padding: 20px;
+    border: #d7d9e8 solid 1px;
+    box-shadow: inset 0 -3px 3px #cde6f5;
 }
 
 .left-sidebar #content {
@@ -133,11 +135,6 @@ html { background: #33559B; }
 
 .left-sidebar #secondary {
 	margin-left: 4.5%;
-}
-#main .widget {
-	background: white;
-	border: #d7d9e8 solid 1px;
-	box-shadow: inset 0 -3px 3px #cde6f5;
 }
 
 .singular .hentry {
