@@ -74,7 +74,12 @@ body {
 
 #branding #searchform {
 	top: 5.1em;
-	background: white;
+	right: 5.6%;
+}
+#branding #s, #branding #s:focus {
+	width: 73%;
+	background-color: #f9f9f9;
+	border-radius: 5px;
 }
 #colophon {
     background: repeat scroll 0 0 #33559B !important;
@@ -106,6 +111,9 @@ html { background: #33559B; }
     padding: 20px;
 }
 
+.left-sidebar #content {
+	width: 67%;
+}
 #content hr {
 /*	background-image: url(http://mozcom-cdn.mozilla.net/img/covehead/divider-main.jpg); */
     background-image: url("img/divider-main.jpg");
@@ -114,6 +122,14 @@ html { background: #33559B; }
     margin: 0;
     padding-bottom:  1.625em;
     min-height: 48px;
+}
+
+.left-sidebar #secondary {
+	margin-left: 4.5%;
+}
+#main .widget {
+	background: rgb(253,253,255);
+	border: gray solid 1px;
 }
 
 .singular .hentry {
