@@ -9,5 +9,9 @@
 }
 #site-description { 
 	margin: 0;
-	margin-right: 170px;
+	margin-right: 100px;
+}
+#access ul {
+	padding-right: 1.4%;
+	padding-left: 0;
 }
