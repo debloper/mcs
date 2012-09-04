@@ -1,0 +1,21 @@
+@import url("../twentyeleven/rtl.css");
+
+#branding hgroup {
+	background-position: right;
+}
+#site-title { 
+	padding-left: 0;
+	padding-right: 170px;
+}
+#site-description { 
+	margin: 0;
+	margin-right: 100px;
+}
+#access ul {
+	padding-right: 1.4%;
+	padding-left: 0;
+}
+#branding #searchform {
+	right: auto;
+	left: 5.6%;
+}

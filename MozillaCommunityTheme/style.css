@@ -1,0 +1,146 @@
+/*
+Theme Name:     Mozilla Community theme (based on WordPress TwentyEleven)
+Theme URI:      https://wiki.mozilla.org/MCS
+Description:    Child theme for the Twenty Eleven theme 
+Author:         Mozilla MCS team
+Author URI:     https://wiki.mozilla.org/MCS
+Template:       twentyeleven
+Version:        0.1.1-tomer
+*/
+
+
+
+@import url("../twentyeleven/style.css");
+
+#branding a img { display: none } /* TEMPORARY REMOVE BANNER IMAGE */
+
+body {
+    padding: 0; 
+    padding-top: 30px;
+    background: url("img/page-background.png") white repeat-x;
+}
+
+#branding { border-top: none; }
+
+/*#branding hgroup { display: inline-block; }*/
+#branding hgroup {
+	background: url("img/mctlogo-small.png");
+	background-repeat: no-repeat;
+	padding-bottom: 10px;
+	margin: 0 4.5%
+}
+#site-title {
+	padding-left: 170px;
+	padding-top: 20px;
+}
+#site-title a { font-size: 40px;}
+#site-description { 
+	display: none;
+	margin: 0;
+	font-size: 30px;
+	margin-left: 170px;
+}
+
+#page {
+    background: none;
+    margin: 0;
+    max-width: none;
+}	
+
+#main {
+    margin: 2em auto;
+    max-width: 1000px;
+    min-width: 1000px;
+}
+
+#access {
+    background: #2e89ca;
+
+    background-image: -webkit-linear-gradient(top, #2e88c9, #1c5a9a); 
+    background-image:    -moz-linear-gradient(top, #2e88c9, #1c5a9a);
+    background-image:     -ms-linear-gradient(top, #2e88c9, #1c5a9a);
+    background-image:      -o-linear-gradient(top, #2e88c9, #1c5a9a); 
+    background-image:         linear-gradient(top, #2e88c9, #1c5a9a);
+
+    border-radius: 5px;
+/*    box-shadow: none;*/
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#access div.menu {
+	margin-left: 1%;
+	margin-right: 1%;
+}
+#access ul {
+	padding-left: 1.4%;
+}
+#access a {
+	font-size: 14px;
+}
+
+#branding #searchform {
+	top: 5.1em;
+	right: 5.6%;
+}
+#branding #s, #branding #s:focus {
+	width: 73%;
+	background-color: #f9f9f9;
+	border-radius: 5px;
+}
+#colophon {
+    background: repeat scroll 0 0 #33559B !important;
+    color: lightgray;
+}
+
+.widget input:focus { background: white; }
+
+html { background: #33559B; }
+
+#colophon .widget-title {
+    color: white;
+    font-weight: bold;
+}
+
+#supplementary, #site-generator {
+    border-top: none;
+    background: none;
+}
+
+#site-generator {
+    background: url("img/mozilla-logo.png") #33559B no-repeat;
+/*    background: url("img/mctlogo.png") #33559B no-repeat;*/
+}
+
+#main .widget {
+    background: white;
+    border-radius: 10px; 
+    padding: 20px;
+    border: #d7d9e8 solid 1px;
+    box-shadow: inset 0 -3px 3px #cde6f5;
+}
+
+.left-sidebar #content {
+	width: 67%;
+}
+#content hr {
+/*	background-image: url(http://mozcom-cdn.mozilla.net/img/covehead/divider-main.jpg); */
+    background-image: url("img/divider-main.jpg");
+    background-color: white;
+    background-position: top center;
+    margin: 0;
+    padding-bottom:  1.625em;
+    min-height: 48px;
+}
+
+.left-sidebar #secondary {
+	margin-left: 4.5%;
+}
+
+.singular .hentry {
+    padding: none;
+}
+
+#site-generator a { 
+    color: #669BE1;
+}
